@@ -1,0 +1,31 @@
+{
+  "name": "vue3-project01",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vicons/ionicons5": "^0.12.0",
+    "axios": "^0.27.2",
+    "element-plus": "^2.2.6",
+    "naive-ui": "^2.29.0",
+    "qs": "^6.10.5",
+    "unplugin-auto-import": "^0.8.5",
+    "unplugin-vue-components": "^0.19.5",
+    "vfonts": "^0.0.3",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.15",
+    "vuex": "^4.0.2",
+    "vuex-along": "^1.2.13"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.9.7",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  }
+}
